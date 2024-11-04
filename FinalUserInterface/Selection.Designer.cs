@@ -28,71 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonIncidents = new Button();
-            buttonCompanies = new Button();
-            buttonRailroads = new Button();
-            buttonUser = new Button();
+            btnIncidents = new Button();
+            btnCompanies = new Button();
+            btnRailroads = new Button();
+            btnUser = new Button();
             SuspendLayout();
             // 
-            // buttonIncidents
+            // btnIncidents
             // 
-            buttonIncidents.BackColor = SystemColors.ControlLight;
-            buttonIncidents.Location = new Point(114, 53);
-            buttonIncidents.Name = "buttonIncidents";
-            buttonIncidents.Size = new Size(175, 100);
-            buttonIncidents.TabIndex = 0;
-            buttonIncidents.Text = "Incidents";
-            buttonIncidents.UseVisualStyleBackColor = false;
-            buttonIncidents.Click += button1_Click;
+            btnIncidents.BackColor = SystemColors.ControlLight;
+            btnIncidents.Location = new Point(114, 53);
+            btnIncidents.Name = "btnIncidents";
+            btnIncidents.Size = new Size(175, 100);
+            btnIncidents.TabIndex = 0;
+            btnIncidents.Text = "Incidents";
+            btnIncidents.UseVisualStyleBackColor = false;
+            btnIncidents.Click += button1_Click;
             // 
-            // buttonCompanies
+            // btnCompanies
             // 
-            buttonCompanies.Location = new Point(454, 53);
-            buttonCompanies.Name = "buttonCompanies";
-            buttonCompanies.Size = new Size(175, 100);
-            buttonCompanies.TabIndex = 1;
-            buttonCompanies.Text = "Companies";
-            buttonCompanies.UseVisualStyleBackColor = true;
+            btnCompanies.Location = new Point(454, 53);
+            btnCompanies.Name = "btnCompanies";
+            btnCompanies.Size = new Size(175, 100);
+            btnCompanies.TabIndex = 1;
+            btnCompanies.Text = "Companies";
+            btnCompanies.UseVisualStyleBackColor = true;
+            btnCompanies.Click += buttonCompanies_Click;
             // 
-            // buttonRailroads
+            // btnRailroads
             // 
-            buttonRailroads.Location = new Point(114, 246);
-            buttonRailroads.Name = "buttonRailroads";
-            buttonRailroads.Size = new Size(175, 100);
-            buttonRailroads.TabIndex = 2;
-            buttonRailroads.Text = "Railroads";
-            buttonRailroads.UseVisualStyleBackColor = true;
+            btnRailroads.Location = new Point(114, 246);
+            btnRailroads.Name = "btnRailroads";
+            btnRailroads.Size = new Size(175, 100);
+            btnRailroads.TabIndex = 2;
+            btnRailroads.Text = "Railroads";
+            btnRailroads.UseVisualStyleBackColor = true;
+            btnRailroads.Click += buttonRailroads_Click;
             // 
-            // buttonUser
+            // btnUser
             // 
-            buttonUser.Location = new Point(454, 246);
-            buttonUser.Name = "buttonUser";
-            buttonUser.Size = new Size(175, 100);
-            buttonUser.TabIndex = 3;
-            buttonUser.Text = "User Maintenance";
-            buttonUser.UseVisualStyleBackColor = true;
+            btnUser.Location = new Point(454, 246);
+            btnUser.Name = "btnUser";
+            btnUser.Size = new Size(175, 100);
+            btnUser.TabIndex = 3;
+            btnUser.Text = "User Maintenance";
+            btnUser.UseVisualStyleBackColor = true;
+            btnUser.Click += buttonUser_Click;
             // 
-            // Form2
+            // Selection
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 450);
-            Controls.Add(buttonUser);
-            Controls.Add(buttonRailroads);
-            Controls.Add(buttonCompanies);
-            Controls.Add(buttonIncidents);
+            Controls.Add(btnUser);
+            Controls.Add(btnRailroads);
+            Controls.Add(btnCompanies);
+            Controls.Add(btnIncidents);
             ForeColor = SystemColors.ControlText;
-            Name = "Form2";
+            Name = "Selection";
             Text = "Form2";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button buttonIncidents;
-        private Button buttonCompanies;
-        private Button buttonRailroads;
-        private Button buttonUser;
+        private Button btnIncidents;
+        private Button btnCompanies;
+        private Button btnRailroads;
+        private Button btnUser;
     }
 }
