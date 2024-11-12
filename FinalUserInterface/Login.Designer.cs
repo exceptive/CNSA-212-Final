@@ -32,7 +32,7 @@
             textBoxUsername = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            buttonLogin = new Button();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // textBoxPassword
@@ -67,29 +67,28 @@
             label2.Size = new Size(57, 15);
             label2.TabIndex = 3;
             label2.Text = "Password";
-            label2.Click += label2_Click;
             // 
-            // buttonLogin
+            // btnLogin
             // 
-            buttonLogin.Location = new Point(328, 268);
-            buttonLogin.Name = "buttonLogin";
-            buttonLogin.Size = new Size(75, 23);
-            buttonLogin.TabIndex = 4;
-            buttonLogin.Text = "Login";
-            buttonLogin.UseVisualStyleBackColor = true;
-            buttonLogin.Click += button1_Click;
+            btnLogin.Location = new Point(328, 268);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(75, 23);
+            btnLogin.TabIndex = 4;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += BtnLogin_Click;
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(buttonLogin);
+            Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBoxUsername);
             Controls.Add(textBoxPassword);
-            Name = "Form1";
+            Name = "Login";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -101,6 +100,6 @@
         private TextBox textBoxUsername;
         private Label label1;
         private Label label2;
-        private Button buttonLogin;
+        private Button btnLogin;
     }
 }
