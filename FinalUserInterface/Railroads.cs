@@ -14,7 +14,7 @@ namespace FinalUserInterface
             InitializeComponent();
         }
 
-        // Constructor accepting username
+
         public Railroads(string username)
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace FinalUserInterface
 
         private void Railroads_Load(object sender, EventArgs e)
         {
-            // Use the connection string stored in AppConfig
+
             string connectionString = AppConfig.ConnectionString;
 
             if (!string.IsNullOrEmpty(connectionString))
@@ -38,7 +38,7 @@ namespace FinalUserInterface
 
         private void LoadData(string connectionString)
         {
-            string query = "SELECT * FROM test_table";  // Example query
+            string query = "SELECT * FROM test_table";
 
             try
             {
@@ -47,7 +47,15 @@ namespace FinalUserInterface
                 {
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
-                    dataGridView1.DataSource = dataTable; // Display data in DataGridView
+
+                    if (dataTable.Rows.Count > 0)
+                    {
+                        dataGridView1.DataSource = dataTable;
+                    }
+                    else
+                    {
+                        MessageBox.Show("No data found in the table.", "No Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
             }
             catch (Exception ex)

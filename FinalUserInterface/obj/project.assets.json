@@ -519,11 +519,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josiah's PC\\FinalUserInterface\\FinalUserInterface.csproj",
+      "projectUniqueName": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
       "projectName": "FinalUserInterface",
-      "projectPath": "C:\\Users\\Josiah's PC\\FinalUserInterface\\FinalUserInterface.csproj",
+      "projectPath": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
       "packagesPath": "C:\\Users\\Josiah's PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josiah's PC\\FinalUserInterface\\obj\\",
+      "outputPath": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\CNSA-212-Final\\FinalUserInterface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josiah's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
