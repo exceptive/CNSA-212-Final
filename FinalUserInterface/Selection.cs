@@ -7,7 +7,7 @@ namespace FinalUserInterface
     {
         private string username;
 
-        // Constructor accepting only username
+
         public Selection(string username, string password)
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace FinalUserInterface
 
         private void buttonRailroads_Click(object sender, EventArgs e)
         {
-            // Now only passing username, no password needed
+
             Railroads railroadsForm = new Railroads(username);
             railroadsForm.Show();
         }
