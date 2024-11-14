@@ -29,7 +29,7 @@ namespace FinalUserInterface
         private void buttonRailroads_Click(object sender, EventArgs e)
         {
 
-            Railroads railroadsForm = new Railroads(username);
+            Railroads railroadsForm = new Railroads();
             railroadsForm.Show();
         }
 

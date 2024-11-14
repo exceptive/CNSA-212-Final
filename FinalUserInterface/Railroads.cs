@@ -7,28 +7,28 @@ namespace FinalUserInterface
 {
     public partial class Railroads : Form
     {
-        private string username;
-
         public Railroads()
         {
             InitializeComponent();
-        }
-
-
-        public Railroads(string username)
-        {
-            InitializeComponent();
-            this.username = username;
+            this.Load += Railroads_Load;
         }
 
         private void Railroads_Load(object sender, EventArgs e)
         {
-
             string connectionString = AppConfig.ConnectionString;
 
             if (!string.IsNullOrEmpty(connectionString))
             {
-                LoadData(connectionString);
+
+                if (TestConnection(connectionString))
+                {
+
+                    LoadData(connectionString);
+                }
+                else
+                {
+                    MessageBox.Show("Failed to connect to the database.", "Connection Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
@@ -36,9 +36,26 @@ namespace FinalUserInterface
             }
         }
 
+        private bool TestConnection(string connectionString)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Connection failed: {ex.Message}", "Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
+
         private void LoadData(string connectionString)
         {
-            string query = "SELECT * FROM test_table";
+            string query = "SELECT * FROM railroad";
 
             try
             {

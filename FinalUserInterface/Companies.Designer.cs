@@ -48,6 +48,7 @@
             Controls.Add(dataGridView1);
             Name = "Companies";
             Text = "Form1";
+            Load += Companies_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

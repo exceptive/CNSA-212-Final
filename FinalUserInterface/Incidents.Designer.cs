@@ -41,6 +41,7 @@
             button1.TabIndex = 0;
             button1.Text = "Make New Incident";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -50,15 +51,16 @@
             dataGridView1.Size = new Size(691, 345);
             dataGridView1.TabIndex = 1;
             // 
-            // Form1
+            // Incidents
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "Incidents";
             Text = "Form1";
+            Load += Incidents_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
