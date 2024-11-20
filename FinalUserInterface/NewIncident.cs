@@ -11,6 +11,7 @@ namespace FinalUserInterface
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string dateTimeReceived = textBox1.Text;
@@ -36,6 +37,8 @@ INSERT INTO incident (
 
             try
             {
+                Logger.LogDatabaseCommand("Preparing to insert new incident record", query);
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     using (SqlCommand command = new SqlCommand(query, connection))
@@ -55,16 +58,20 @@ INSERT INTO incident (
 
 
                         connection.Open();
+                        Logger.LogDatabaseCommand("Database connection opened", "Executing insert command");
                         int rowsAffected = command.ExecuteNonQuery();
                         connection.Close();
+                        Logger.LogDatabaseCommand("Database connection closed", $"Rows affected: {rowsAffected}");
 
 
                         if (rowsAffected > 0)
                         {
+                            Logger.LogDatabaseCommand("Insert successful", "Incident record added");
                             MessageBox.Show("Incident record successfully added to the database.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
+                            Logger.LogError("Insert failed", "No rows affected by the query");
                             MessageBox.Show("Failed to add incident record.", "Failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
@@ -73,11 +80,13 @@ INSERT INTO incident (
             catch (SqlException ex)
             {
 
+                Logger.LogError($"SQL Error: {ex.Message}", ex.StackTrace);
                 MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception ex)
             {
 
+                Logger.LogError($"Unexpected Error: {ex.Message}", ex.StackTrace);
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

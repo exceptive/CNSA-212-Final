@@ -1,6 +1,6 @@
 ﻿namespace FinalUserInterface
 {
-    partial class Companies
+    partial class RailroadsIncident
     {
         /// <summary>
         /// Required designer variable.
@@ -35,20 +35,20 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(22, 27);
+            dataGridView1.Location = new Point(47, 35);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(753, 398);
+            dataGridView1.Size = new Size(707, 366);
             dataGridView1.TabIndex = 0;
+            
             // 
-            // Companies
+            // RailroadsIncident
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
-            Name = "Companies";
-            Text = "Form1";
-            Load += Companies_Load;
+            Name = "RailroadsIncident";
+            Text = "RailroadsIncident";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
@@ -57,4 +57,4 @@
 
         private DataGridView dataGridView1;
     }
-} 
+}

@@ -1056,11 +1056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Windows\\Github\\Final\\FinalUserInterface\\FinalUserInterface.csproj",
+      "projectUniqueName": "C:\\Users\\da\\Downloads\\cnsa-212-assignments-main11\\cnsa-212-assignments\\FinalUserInterface\\FinalUserInterface.csproj",
       "projectName": "FinalUserInterface",
-      "projectPath": "C:\\Windows\\Github\\Final\\FinalUserInterface\\FinalUserInterface.csproj",
+      "projectPath": "C:\\Users\\da\\Downloads\\cnsa-212-assignments-main11\\cnsa-212-assignments\\FinalUserInterface\\FinalUserInterface.csproj",
       "packagesPath": "C:\\Users\\da\\.nuget\\packages\\",
-      "outputPath": "C:\\Windows\\Github\\Final\\FinalUserInterface\\obj\\",
+      "outputPath": "C:\\Users\\da\\Downloads\\cnsa-212-assignments-main11\\cnsa-212-assignments\\FinalUserInterface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

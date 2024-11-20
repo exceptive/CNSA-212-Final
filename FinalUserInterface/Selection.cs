@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Emit;
 using System.Windows.Forms;
 
 namespace FinalUserInterface
@@ -12,6 +13,8 @@ namespace FinalUserInterface
         {
             InitializeComponent();
             this.username = username;
+
+            label1.Text = $"Welcome, {username}!";
         }
 
         private void button1_Click(object sender, EventArgs e)

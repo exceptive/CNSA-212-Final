@@ -1,8 +1,8 @@
 using System;
 using System.Data.SqlClient;
-using System.IO;
 using System.Windows.Forms;
-using Newtonsoft.Json;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace FinalUserInterface
 {
@@ -16,46 +16,94 @@ namespace FinalUserInterface
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            string configFilePath = Path.Combine(Application.StartupPath, "config.json");
-            SqlConnectionConfig config = SqlConnectionConfig.LoadConfig(configFilePath);
+            string username = textBoxUsername.Text;
+            string password = textBoxPassword.Text;
+            AppConfig.Username = textBoxUsername.Text;
+            AppConfig.Password = textBoxPassword.Text;
 
-            config.Username = textBoxUsername.Text;
-            config.Password = textBoxPassword.Text;
 
-            string testConnectionString = $"Server={config.Server};Database={config.Database};User Id={config.Username};Password={config.Password};TrustServerCertificate={config.TrustServerCertificate};";
-
-            if (TestConnection(testConnectionString))
+            string connectionString = $"Server=DESKTOP-77OQVUT;Database=Final212;User Id={username};Password={password};TrustServerCertificate=True;";
+            AppConfig.ConnectionString = connectionString;
+            try
             {
-                AppConfig.ConnectionString = testConnectionString;
 
-                SqlConnectionConfig.SaveConfig(configFilePath, config);
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT PasswordHash, Salt FROM Users WHERE Username = @Username";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Username", username);
 
-                this.DialogResult = DialogResult.OK;
-                this.Hide();
+                        Logger.LogDatabaseCommand(query, $"@Username = {username}");
 
-                Selection selectionForm = new Selection(config.Username, config.Password);
-                selectionForm.Show();
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+
+                                string storedHashedPassword = reader["PasswordHash"].ToString();
+                                string storedSalt = reader["Salt"].ToString();
+
+
+                                Console.WriteLine($"Stored Hashed Password: {storedHashedPassword}");
+                                Console.WriteLine($"Stored Salt: {storedSalt}");
+
+                                string hashedInputPassword = HashedPassword(password, storedSalt);
+
+
+                                Console.WriteLine($"Hashed Input Password: {hashedInputPassword}");
+
+
+                                if (hashedInputPassword == storedHashedPassword)
+                                {
+                                    Logger.LogDatabaseCommand("Login Successful", $"User: {username}");
+                                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                                    this.Hide();
+                                    Selection selectionForm = new Selection(username, password);
+                                    selectionForm.ShowDialog();
+                                    this.Close();
+                                }
+                                else
+                                {
+                                   Logger.LogError($"Failed login attempt for user '{username}'");
+                                    MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                            }
+                            else
+                            {
+                             Logger.LogError($"Failed login attempt for user '{username}' - User not found.");
+                                MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Logger.LogError($"Login error for user '{username}': {ex.Message}");
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private bool TestConnection(string connectionString)
+
+        private string HashedPassword(string password, string salt)
         {
-            try
+            using (SHA256 sha256 = SHA256.Create())
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-                }
-                return true;
+
+                string saltedPassword = salt + password;
+                byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(saltedPassword));
+                return Convert.ToBase64String(hashBytes);
             }
-            catch
-            {
-                return false;
-            }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

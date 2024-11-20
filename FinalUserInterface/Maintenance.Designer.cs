@@ -28,31 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox2 = new TextBox();
+            textBoxNewPassword = new TextBox();
             labelNewPassword = new Label();
             buttonChange = new Button();
             SuspendLayout();
             // 
-            // textBox2
+            // textBoxNewPassword
             // 
-            textBox2.Location = new Point(111, 180);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(192, 23);
-            textBox2.TabIndex = 0;
+            textBoxNewPassword.Location = new Point(70, 93);
+            textBoxNewPassword.Name = "textBoxNewPassword";
+            textBoxNewPassword.Size = new Size(192, 23);
+            textBoxNewPassword.TabIndex = 0;
             // 
             // labelNewPassword
             // 
             labelNewPassword.AutoSize = true;
-            labelNewPassword.Font = new Font("Segoe UI", 15F);
-            labelNewPassword.Location = new Point(141, 124);
+            labelNewPassword.Location = new Point(70, 54);
             labelNewPassword.Name = "labelNewPassword";
-            labelNewPassword.Size = new Size(137, 28);
+            labelNewPassword.Size = new Size(84, 15);
             labelNewPassword.TabIndex = 1;
             labelNewPassword.Text = "New Password";
             // 
             // buttonChange
             // 
-            buttonChange.Location = new Point(129, 247);
+            buttonChange.Location = new Point(70, 148);
             buttonChange.Name = "buttonChange";
             buttonChange.Size = new Size(162, 43);
             buttonChange.TabIndex = 2;
@@ -64,10 +63,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(426, 460);
+            ClientSize = new Size(340, 406);
             Controls.Add(buttonChange);
             Controls.Add(labelNewPassword);
-            Controls.Add(textBox2);
+            Controls.Add(textBoxNewPassword);
             Name = "Maintenance";
             Text = "Form1";
             ResumeLayout(false);
@@ -76,7 +75,7 @@
 
         #endregion
 
-        private TextBox textBox2;
+        private TextBox textBoxNewPassword;
         private Label labelNewPassword;
         private Button buttonChange;
     }

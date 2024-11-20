@@ -234,7 +234,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 35F);
-            label12.Location = new Point(158, 312);
+            label12.Location = new Point(207, 285);
             label12.Name = "label12";
             label12.Size = new Size(349, 62);
             label12.TabIndex = 22;
@@ -242,7 +242,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(266, 218);
+            button1.Location = new Point(313, 218);
             button1.Name = "button1";
             button1.Size = new Size(147, 23);
             button1.TabIndex = 23;
@@ -254,7 +254,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(703, 457);
+            ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label12);
             Controls.Add(textBox11);

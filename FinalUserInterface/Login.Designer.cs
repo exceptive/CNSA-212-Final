@@ -53,20 +53,18 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15F);
             label1.Location = new Point(316, 77);
             label1.Name = "label1";
-            label1.Size = new Size(99, 28);
+            label1.Size = new Size(60, 15);
             label1.TabIndex = 2;
             label1.Text = "Username";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15F);
-            label2.Location = new Point(316, 175);
+            label2.Location = new Point(319, 184);
             label2.Name = "label2";
-            label2.Size = new Size(93, 28);
+            label2.Size = new Size(57, 15);
             label2.TabIndex = 3;
             label2.Text = "Password";
             // 
@@ -84,14 +82,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(782, 472);
+            ClientSize = new Size(800, 450);
             Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBoxUsername);
             Controls.Add(textBoxPassword);
             Name = "Login";
-            Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
         }

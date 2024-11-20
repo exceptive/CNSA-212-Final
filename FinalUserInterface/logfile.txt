@@ -1,0 +1,498 @@
+[11/19/2024 7:33:31 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:33:31 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 7:33:45 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:33:45 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 7:33:48 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:33:48 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 7:33:59 PM] Command Executed: Login Successful
+[11/19/2024 7:33:59 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 7:34:03 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:03 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:03 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:03 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:15 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:15 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:15 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:15 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:15 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:15 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:15 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:15 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:15 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:15 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:15 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Connection successful
+[11/19/2024 7:34:15 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:15 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:15 PM] Command Executed: Data load successful
+[11/19/2024 7:34:15 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:29 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:29 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:29 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Connection successful
+[11/19/2024 7:34:29 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:29 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Data load successful
+[11/19/2024 7:34:29 PM] Parameters: 23512 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:29 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:29 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:29 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Connection successful
+[11/19/2024 7:34:29 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:29 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/19/2024 7:34:29 PM] Command Executed: Data load successful
+[11/19/2024 7:34:29 PM] Parameters: 23512 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:40 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:40 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:40 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Connection successful
+[11/19/2024 7:34:40 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:40 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Data load successful
+[11/19/2024 7:34:40 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:34:40 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Testing database connection
+[11/19/2024 7:34:40 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Database connection test passed
+[11/19/2024 7:34:40 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Connection successful
+[11/19/2024 7:34:40 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Executing data load query
+[11/19/2024 7:34:40 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:34:40 PM] Command Executed: Data load successful
+[11/19/2024 7:34:40 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:35:26 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:35:26 PM] Parameters: @Username = 
+--------------------------------------------------
+[11/19/2024 7:43:04 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:43:04 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 7:43:16 PM] Command Executed: Login Successful
+[11/19/2024 7:43:16 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 7:43:22 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:43:22 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:43:22 PM] Command Executed: Testing database connection
+[11/19/2024 7:43:22 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Database connection test passed
+[11/19/2024 7:43:34 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Connection successful
+[11/19/2024 7:43:34 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Executing data load query
+[11/19/2024 7:43:34 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Data load successful
+[11/19/2024 7:43:34 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Checking connection string validity
+[11/19/2024 7:43:34 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Testing database connection
+[11/19/2024 7:43:34 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Database connection test passed
+[11/19/2024 7:43:34 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Connection successful
+[11/19/2024 7:43:34 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Executing data load query
+[11/19/2024 7:43:34 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 7:43:34 PM] Command Executed: Data load successful
+[11/19/2024 7:43:34 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 7:44:20 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 7:44:20 PM] Parameters: @Username = 
+--------------------------------------------------
+[11/19/2024 8:14:34 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:14:34 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 8:14:45 PM] Command Executed: Login Successful
+[11/19/2024 8:14:45 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 8:14:48 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:14:48 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Database connection opened
+[11/19/2024 8:15:00 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Connection successful
+[11/19/2024 8:15:00 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Loading data
+[11/19/2024 8:15:00 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:15:00 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:15:00 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Database connection opened
+[11/19/2024 8:15:00 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Connection successful
+[11/19/2024 8:15:00 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Loading data
+[11/19/2024 8:15:00 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:15:00 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:15:00 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:15:16 PM] Command Executed: Checking connection string validity
+[11/19/2024 8:15:16 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 8:15:16 PM] Command Executed: Testing database connection
+[11/19/2024 8:15:16 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 8:15:16 PM] Command Executed: Database connection test passed
+[11/19/2024 8:15:16 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 8:15:16 PM] Command Executed: Connection successful
+[11/19/2024 8:15:16 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:15:16 PM] Command Executed: Executing data load query
+[11/19/2024 8:15:16 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Data load successful
+[11/19/2024 8:15:17 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Checking connection string validity
+[11/19/2024 8:15:17 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Testing database connection
+[11/19/2024 8:15:17 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Database connection test passed
+[11/19/2024 8:15:17 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Connection successful
+[11/19/2024 8:15:17 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Executing data load query
+[11/19/2024 8:15:17 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 8:15:17 PM] Command Executed: Data load successful
+[11/19/2024 8:15:17 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 8:15:23 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:15:23 PM] Parameters: @Username = 
+--------------------------------------------------
+[11/19/2024 8:16:40 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:16:40 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 8:16:51 PM] Command Executed: Login Successful
+[11/19/2024 8:16:51 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 8:16:55 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:16:55 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Database connection opened
+[11/19/2024 8:17:06 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Connection successful
+[11/19/2024 8:17:06 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Loading data
+[11/19/2024 8:17:06 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:17:06 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:17:06 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Database connection opened
+[11/19/2024 8:17:06 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Connection successful
+[11/19/2024 8:17:06 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Loading data
+[11/19/2024 8:17:06 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:17:06 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:17:06 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Checking connection string validity
+[11/19/2024 8:18:09 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Testing database connection
+[11/19/2024 8:18:09 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Database connection test passed
+[11/19/2024 8:18:09 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Connection successful
+[11/19/2024 8:18:09 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Executing data load query
+[11/19/2024 8:18:09 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Data load successful
+[11/19/2024 8:18:09 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Checking connection string validity
+[11/19/2024 8:18:09 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Testing database connection
+[11/19/2024 8:18:09 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Database connection test passed
+[11/19/2024 8:18:09 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Connection successful
+[11/19/2024 8:18:09 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Executing data load query
+[11/19/2024 8:18:09 PM] Parameters: Query: SELECT * FROM Company
+--------------------------------------------------
+[11/19/2024 8:18:09 PM] Command Executed: Data load successful
+[11/19/2024 8:18:09 PM] Parameters: 23510 rows loaded
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:18:19 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Database connection opened
+[11/19/2024 8:18:19 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Connection successful
+[11/19/2024 8:18:19 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Loading data
+[11/19/2024 8:18:19 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:18:19 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:18:19 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Database connection opened
+[11/19/2024 8:18:19 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Connection successful
+[11/19/2024 8:18:19 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Loading data
+[11/19/2024 8:18:19 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:18:19 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:18:19 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:18:24 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:18:24 PM] Parameters: @Username = 
+--------------------------------------------------
+[11/19/2024 8:18:51 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:18:51 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 8:19:03 PM] Command Executed: Login Successful
+[11/19/2024 8:19:03 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 8:19:06 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:19:06 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Database connection opened
+[11/19/2024 8:19:17 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Connection successful
+[11/19/2024 8:19:17 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Loading data
+[11/19/2024 8:19:17 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:19:17 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:19:17 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Database connection opened
+[11/19/2024 8:19:17 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Connection successful
+[11/19/2024 8:19:17 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Loading data
+[11/19/2024 8:19:17 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:19:17 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:19:17 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:19:31 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:19:31 PM] Parameters: @Username = 
+--------------------------------------------------
+[11/19/2024 8:24:04 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:24:04 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/19/2024 8:24:15 PM] Command Executed: Login Successful
+[11/19/2024 8:24:15 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/19/2024 8:24:19 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:24:19 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Database connection opened
+[11/19/2024 8:24:31 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Connection successful
+[11/19/2024 8:24:31 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Loading data
+[11/19/2024 8:24:31 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:24:31 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Attempting to connect to the database
+[11/19/2024 8:24:31 PM] Parameters: Connection string: Server=DESKTOP-77OQVUT;Database=Final212;User Id=Josiah;Password=CNSAcnsa1;TrustServerCertificate=True;
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Database connection opened
+[11/19/2024 8:24:31 PM] Parameters: TestConnection successful
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Connection successful
+[11/19/2024 8:24:31 PM] Parameters: Loading data
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Loading data
+[11/19/2024 8:24:31 PM] Parameters: SELECT * FROM railroad
+--------------------------------------------------
+[11/19/2024 8:24:31 PM] Command Executed: Data successfully loaded
+[11/19/2024 8:24:31 PM] Parameters: Rows retrieved: 2959
+--------------------------------------------------
+[11/19/2024 8:31:47 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/19/2024 8:31:47 PM] Parameters: @Username = 
+--------------------------------------------------

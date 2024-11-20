@@ -1,0 +1,12 @@
+[11/19/2024 7:33:43 PM] Error: Login error for user 'Josiah': Login failed for user 'Josiah'.
+--------------------------------------------------
+[11/19/2024 7:33:45 PM] Error: Login error for user 'Josiah': Login failed for user 'Josiah'.
+--------------------------------------------------
+[11/19/2024 7:35:37 PM] Error: Login error for user '': Login failed for user ''.
+--------------------------------------------------
+[11/19/2024 8:18:36 PM] Error: Login error for user '': Login failed for user ''.
+--------------------------------------------------
+[11/19/2024 8:19:43 PM] Error: Login error for user '': Login failed for user ''.
+--------------------------------------------------
+[11/19/2024 8:31:59 PM] Error: Login error for user '': Login failed for user ''.
+--------------------------------------------------
