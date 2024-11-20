@@ -1,9 +1,11 @@
-﻿using System;
+﻿using FinalUserInterface;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,7 @@ namespace FinalUserInterface
         {
             InitializeComponent();
             this.Load += Incidents_Load;
+            dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
         }
         private void Incidents_Load(object sender, EventArgs e)
         {
@@ -98,6 +101,20 @@ namespace FinalUserInterface
             {
                 Logger.LogError($"Error loading data: {ex.Message}", ex.StackTrace);
                 MessageBox.Show($"Error loading data: {ex.Message}", "Data Load Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+          
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)   
+        {
+            if (e.RowIndex >= 0)
+            {
+                var RailroadEXT = dataGridView1.Rows[e.RowIndex].Cells["incident_railroad_id"].Value.ToString();
+
+
+                IncidentsEXT incidentsForm = new IncidentsEXT(RailroadEXT);
+                incidentsForm.ShowDialog();
             }
         }
     }

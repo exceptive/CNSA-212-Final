@@ -1,6 +1,6 @@
 ﻿namespace FinalUserInterface
 {
-    partial class Incidents
+    partial class IncidentsEXT
     {
         /// <summary>
         /// Required designer variable.
@@ -28,47 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // button1
-            // 
-            button1.Location = new Point(82, 30);
-            button1.Name = "button1";
-            button1.Size = new Size(218, 26);
-            button1.TabIndex = 0;
-            button1.Text = "Make New Incident";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(82, 85);
+            dataGridView1.Location = new Point(53, 37);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(691, 345);
-            dataGridView1.TabIndex = 1;
-            dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
+            dataGridView1.Size = new Size(663, 363);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // Incidents
+            // IncidentsEXT
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
-            Controls.Add(button1);
-            Name = "Incidents";
-            Text = "Form1";
-            Load += Incidents_Load;
+            Name = "IncidentsEXT";
+            Text = "IncidentsEXT";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button button1;
         private DataGridView dataGridView1;
     }
 }

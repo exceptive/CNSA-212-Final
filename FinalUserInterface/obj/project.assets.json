@@ -1050,19 +1050,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josiah's PC\\.nuget\\packages\\": {}
+    "C:\\Users\\da\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\Andres\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
+      "projectUniqueName": "C:\\Users\\da\\source\\repos\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
       "projectName": "FinalUserInterface",
-      "projectPath": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\Andres\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
-      "packagesPath": "C:\\Users\\Josiah's PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josiah's PC\\Documents\\GitHub\\Andres\\CNSA-212-Final\\FinalUserInterface\\obj\\",
+      "projectPath": "C:\\Users\\da\\source\\repos\\CNSA-212-Final\\FinalUserInterface\\FinalUserInterface.csproj",
+      "packagesPath": "C:\\Users\\da\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\da\\source\\repos\\CNSA-212-Final\\FinalUserInterface\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Josiah's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\da\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1070,6 +1075,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
