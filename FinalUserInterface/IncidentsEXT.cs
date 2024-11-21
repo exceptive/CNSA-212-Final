@@ -26,7 +26,7 @@ namespace FinalUserInterface
 
             if (!string.IsNullOrEmpty(conectionString))
             {
-                string query = "SELECT * FROM Incident WHERE railroad_incident_id = @IncidentsEXT";
+                string query = "SELECT * FROM Incident WHERE incident_train_id = @IncidentsEXT";
 
                 try
                 {
@@ -44,7 +44,7 @@ namespace FinalUserInterface
                         }
                         else
                         {
-                            MessageBox.Show("No incidents found for this company.", "No Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("No incidents found for this train.", "No Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
                 }

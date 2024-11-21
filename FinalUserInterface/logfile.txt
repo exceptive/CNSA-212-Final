@@ -688,3 +688,87 @@
 [11/20/2024 3:22:26 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
 [11/20/2024 3:22:26 PM] Parameters: @Username = 
 --------------------------------------------------
+[11/21/2024 12:16:02 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/21/2024 12:16:02 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/21/2024 12:16:15 PM] Command Executed: Login Successful
+[11/21/2024 12:16:15 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/21/2024 12:16:23 PM] Command Executed: Checking connection string validity
+[11/21/2024 12:16:23 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/21/2024 12:16:23 PM] Command Executed: Testing database connection
+[11/21/2024 12:16:23 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/21/2024 12:16:34 PM] Command Executed: Database connection test passed
+[11/21/2024 12:16:34 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/21/2024 12:16:34 PM] Command Executed: Connection successful
+[11/21/2024 12:16:34 PM] Parameters: Loading data
+--------------------------------------------------
+[11/21/2024 12:16:34 PM] Command Executed: Executing data load query
+[11/21/2024 12:16:34 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Data load successful
+[11/21/2024 12:16:35 PM] Parameters: 21191 rows loaded
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Checking connection string validity
+[11/21/2024 12:16:35 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Testing database connection
+[11/21/2024 12:16:35 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Database connection test passed
+[11/21/2024 12:16:35 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Connection successful
+[11/21/2024 12:16:35 PM] Parameters: Loading data
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Executing data load query
+[11/21/2024 12:16:35 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/21/2024 12:16:35 PM] Command Executed: Data load successful
+[11/21/2024 12:16:35 PM] Parameters: 21191 rows loaded
+--------------------------------------------------
+[11/21/2024 12:18:41 PM] Command Executed: SELECT PasswordHash, Salt FROM Users WHERE Username = @Username
+[11/21/2024 12:18:41 PM] Parameters: @Username = Josiah
+--------------------------------------------------
+[11/21/2024 12:18:53 PM] Command Executed: Login Successful
+[11/21/2024 12:18:53 PM] Parameters: User: Josiah
+--------------------------------------------------
+[11/21/2024 12:18:55 PM] Command Executed: Checking connection string validity
+[11/21/2024 12:18:55 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/21/2024 12:18:55 PM] Command Executed: Testing database connection
+[11/21/2024 12:18:55 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Database connection test passed
+[11/21/2024 12:19:07 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Connection successful
+[11/21/2024 12:19:07 PM] Parameters: Loading data
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Executing data load query
+[11/21/2024 12:19:07 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Data load successful
+[11/21/2024 12:19:07 PM] Parameters: 21191 rows loaded
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Checking connection string validity
+[11/21/2024 12:19:07 PM] Parameters: Connection string is set
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Testing database connection
+[11/21/2024 12:19:07 PM] Parameters: Opening SQL connection
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Database connection test passed
+[11/21/2024 12:19:07 PM] Parameters: Connection opened successfully
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Connection successful
+[11/21/2024 12:19:07 PM] Parameters: Loading data
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Executing data load query
+[11/21/2024 12:19:07 PM] Parameters: Query: SELECT * FROM incident
+--------------------------------------------------
+[11/21/2024 12:19:07 PM] Command Executed: Data load successful
+[11/21/2024 12:19:07 PM] Parameters: 21191 rows loaded
+--------------------------------------------------

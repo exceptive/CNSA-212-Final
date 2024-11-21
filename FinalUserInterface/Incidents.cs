@@ -110,7 +110,7 @@ namespace FinalUserInterface
         {
             if (e.RowIndex >= 0)
             {
-                var RailroadEXT = dataGridView1.Rows[e.RowIndex].Cells["incident_railroad_id"].Value.ToString();
+                var RailroadEXT = dataGridView1.Rows[e.RowIndex].Cells["incident_train_id"].Value.ToString();
 
 
                 IncidentsEXT incidentsForm = new IncidentsEXT(RailroadEXT);
